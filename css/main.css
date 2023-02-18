@@ -1,0 +1,59 @@
+/* CSS STYLE FOR BLOCKS */
+@import url('../css/main-cards.css');
+@import url('../css/main-news.css');
+@import url('../css/main-our-partners.css');
+
+.main {
+    margin-bottom: 101px;
+}
+
+/* MAIN TEXT */
+
+.main-pages {
+    margin-bottom: 48.5px;
+}
+
+.page {
+    color: #232323;
+}
+
+.main-page {
+    color: #000;
+}
+
+.two-page {
+    color: #808283;
+}
+
+.main-content-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.main-title .title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #232323;
+}
+
+.main-points {
+    display: flex;
+}
+
+.main-points .main-link {
+    border: 1px solid #CDCDCD;
+    padding: 15px 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.main-points a.active {
+    background-color: #CD9967;
+    color: #fff;
+}

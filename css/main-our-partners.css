@@ -1,0 +1,19 @@
+/* MAIN OUR PARTNERS */
+.main-our-partners {
+    margin-bottom: 122px;
+}
+
+.main-our-partners .main-title {
+    margin-bottom: 50px;
+}
+
+/* MAIN OUR PARTNERS CONTENT */
+.our-partners-img {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.our-partners-img li:hover {
+    background-image: url('../img/main/my-business-on-hover.png');
+}

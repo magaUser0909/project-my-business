@@ -1,0 +1,82 @@
+.main-cards {
+    margin-bottom: 50px;
+}
+
+/* MAIN NEW CARDS */
+.main-new-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* MAIN PAST CARDS */
+.main-past-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+/* CARD */
+.card {
+    border: 1px solid rgba(22, 150, 165, 0.6);
+    padding: 40px;
+}
+
+.card-time-event {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+/* CALENDAR */
+.calendar {
+    display: flex;
+    column-gap: 5.5px;
+    border: 1px solid #404040;
+    color: #404040;
+    padding: 6px 9.5px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/* TIME EVENT */
+.time-event {
+    display: flex;
+    background: #E11828;
+    border: 0;
+    padding: 5px 8px;
+    color: #fff;
+    column-gap: 5.5px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/* MAIN PAST TIME EVENT */
+.main-past-cards .time-event {
+    background-color: #0F70C9;
+}
+
+/* EVENT TEXT HEADING */
+.event-text .heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 17px;
+}
+
+.event-text .heading-span {
+    color: #cd9967;
+}
+
+/* EVENT-TEXT TEXT */
+.event-text .text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    color: #000;
+}
